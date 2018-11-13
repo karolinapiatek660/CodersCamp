@@ -1,0 +1,17 @@
+
+
+
+
+ .box {
+                   display: grid;
+                   grid-template-columns: repeat(2,1fr)
+ }
+
+  .nav{
+      display:flex;
+      justify-content:space-between;
+      list-style-type:none;
+
+  }
+
+                
