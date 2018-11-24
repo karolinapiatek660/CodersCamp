@@ -12,8 +12,9 @@
       justify-content:space-between;
       list-style-type:none;
       font-weight: bolder;
+    position: relative; left: 500px; top: -450px;
+
   }
- 
 
     body{
         background-color:ghostwhite;
@@ -31,12 +32,7 @@
         font-weight: bolder;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    .image{
-        position:relative; top: -200px;
-        text-align: start;
-        margin-top: 40%;
-
-    }
+    
 
     .naglow{
         font-weight: bolder;
@@ -113,11 +109,7 @@
     margin-inline-end: 0px;
     font-weight: bold;
 
-    .menu_ang_img{
-        width: 50%;
-        background-image: url(../img/tort unikorn.I.img);
-        background-position: center;
-        background-size: cover;
+    .menu_and_img{
         display: flex;
         flex-direction: column;
     }
@@ -133,15 +125,18 @@
             justify-content: center;
             align-items: center;
     }
-
- ::selection.about_us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00c4c4;
-    font-family: 'Mukta', sans-serif;
-    color: white;
-    overflow: hidden;
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00c4c4;
+        font-family: 'Mukta', sans-serif;
+        color: white;
+        overflow: hidden;
+        margin-left: 100px;
+    
 }
-
-                
+.text  {
+    display: flex;
+    flex-direction: column;
+}
